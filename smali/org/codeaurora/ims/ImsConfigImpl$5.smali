@@ -80,11 +80,7 @@
     .local v1, "bp":Ljava/lang/String;
     iget-object v3, p0, Lorg/codeaurora/ims/ImsConfigImpl$5;->this$0:Lorg/codeaurora/ims/ImsConfigImpl;
 
-    invoke-static {v3}, Lorg/codeaurora/ims/ImsConfigImpl;->access$500(Lorg/codeaurora/ims/ImsConfigImpl;)Landroid/content/Context;
-
-    move-result-object v3
-
-    invoke-static {v3}, Lcom/android/ims/ImsManager;->getWfcMDN(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v3, v0}, Lorg/codeaurora/ims/ImsConfigImpl;->access$1500(Lorg/codeaurora/ims/ImsConfigImpl;I)Ljava/lang/String;
 
     move-result-object v3
 
